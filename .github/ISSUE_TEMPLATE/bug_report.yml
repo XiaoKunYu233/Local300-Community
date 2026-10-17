@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 提供可复现、已脱敏的问题说明
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传账号存档、原始抓包、登录摘要、控制令牌或客户端资源。先阅读 CONTRIBUTING.md。
+  - type: input
+    id: versions
+    attributes:
+      label: 软件与客户端版本
+      description: 填写Local300版本、客户端版本或EXE的SHA-256，以及Windows版本。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 描述从启动到出现问题的最小步骤及发生时间。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 预期结果与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 必要的脱敏证据
+      description: 可提供错误提示、局部截图或最小合成数据；不附完整本地数据目录。

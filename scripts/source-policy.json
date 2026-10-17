@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "compatibilitySources": [
+    "server/research/hero-combat-20261010/base-profiles/profile-loader.js",
+    "server/research/hero-combat-20261010/emiya/emiya-hero.js",
+    "server/research/hero-combat-20261010/emiya/emiya-native.js",
+    "server/research/hero-combat-20261010/emiya/emiya-projectiles-native.js",
+    "server/research/hero-combat-20261010/emiya/emiya-ui-rules.js",
+    "server/research/hero-combat-20261010/ikaros/ikaros-hero.js",
+    "server/research/hero-combat-20261010/ikaros/ikaros-native.js",
+    "server/research/hero-combat-20261010/ikaros/ikaros-projectile-native.js",
+    "server/research/hero-combat-20261010/kanna/kanna-cloud-native.js",
+    "server/research/hero-combat-20261010/kanna/kanna-energy-host.js",
+    "server/research/hero-combat-20261010/kanna/kanna-hero.js",
+    "server/research/hero-combat-20261010/kanna/kanna-native.js",
+    "server/research/hero-combat-20261010/kanna/kanna-q-host.js",
+    "server/research/hero-combat-20261010/kirito/kirito-hero.js",
+    "server/research/hero-combat-20261010/kirito/kirito-native.js",
+    "server/research/hero-combat-20261010/kirito/kirito-projectiles-native.js",
+    "server/research/hero-combat-20261010/kirito/kirito-ui-rules.js"
+  ],
+  "reason": "Existing production module paths only; not permission to publish research data, captures, reports or additional historical files"
+}
